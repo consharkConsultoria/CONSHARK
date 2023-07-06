@@ -1,0 +1,224 @@
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   height: 100vh;
+   overflow: hidden;
+   display: flex;
+   justify-content:center;
+   padding: 35px;
+   align-items: center;
+   background-image: url(fundoOriginal.png);
+   background-size: cover;
+   color: #fff;
+   font-family: 'Poppins', sans-serif;
+   
+
+.container{
+    border: 1px solid #02212db0;
+    border-radius: 15px;
+    margin-left: 50px;
+    height: auto;
+    width: 25vw;
+    background-color:#02212d70;
+    padding: 25px;
+
+    .user{
+        // border: 1px solid rgb(76, 0, 255);
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        .user2{
+            background-color: #023e53;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            width:50px;
+        }
+    }
+     .title{
+        // border: 1px solid rgb(255, 217, 0);
+        // height: 100px;
+        margin-top: 5px;
+        text-align: center;
+        h1{
+            font-weight: 100;
+            font-size: 32px;
+            color: #e9e5e5;
+
+        }
+        }
+
+        .formulario{
+        // border: 1px solid rgb(255, 0, 191);
+        height: 65%;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content:flex-start;
+
+            form{
+        // border: 1px solid rgb(43, 255, 0);
+        width: 100%;
+        height: 95%;
+
+                p{
+                    color: #e9e5e5;
+                    input{
+                        width: 75%;
+                        height: 35px;
+                        background-color: transparent;
+                        border-bottom: 1px solid #023e53;
+                        border-left: none;
+                        border-top: none;
+                        border-right: none;
+                        color: #c2c2c2;
+                        font-size: 18px;
+                        }input:focus{
+                           outline: 0;
+                           border-bottom: 1px solid  #50e1e6b2;
+                        }
+                }
+
+        
+    }
+
+    .btn{
+         //border: 1px solid yellow;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        padding-left: 8px;
+        align-items: center;
+        input{
+            height: 45px;
+            width: 125px;
+            border-radius: 5px;
+            background-color:transparent;
+            border: 1px solid #057097;
+            color: #fff;
+            border-radius: 20px;
+            transition: 0.6s ease-in-out;
+            color: #e9e5e5;
+        }input:hover{
+            border-radius: 5px;
+            height: 45px;
+            width: 200px;
+             }
+      
+      
+    }
+        }
+        .caixa{
+           // border: 1px solid red;
+            display: flex;
+             justify-content: flex-end;
+
+             p{
+                margin-right: 15px;
+                font-size:14px;
+                transition: 0.5s ease-in-out;
+
+                a{
+                    text-decoration: none;
+                    color: #e2e2e2;
+                }
+             }p:hover{
+                border-bottom: 1px solid #fff;
+             }
+        }
+}
+
+
+}
+
+@media (max-width: 1500px){
+    body {
+        .container {
+        height: 72vh;
+        }
+    }
+        
+    }
+@media (max-width: 1300px){
+    body .container .formulario form .inp {
+        height: 32px;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 1200px){
+    body {
+        .container {
+        height: 82vh;
+        }
+    }
+        
+    }
+
+    @media (max-width: 900px){
+        body .container {
+            height: 85vh;
+            width: 50vh;
+        }
+            
+        }
+
+        @media (max-width: 434px){
+            body .container {
+                height: 84vh;
+                width: 50vh;
+            }
+                
+            }
+
+        @media (max-width: 400px){
+            body .container .formulario form .inp {
+                height: 32px;
+                margin: 20px;
+                margin-left: 15px;
+            }
+                    
+            }
+
+
+            @media (max-width: 500px){
+                body{
+                    padding: 0;
+                    .container{
+                        margin: 0;
+                    }
+                }
+                }
+
+
+
+
+    @media(max-width: 400px){
+        body{
+            padding: 10px;
+            .container{
+                margin-top: 5px;
+                margin-left: 0;
+                height: auto;
+                width: 95vw; 
+            }
+        }
+        }

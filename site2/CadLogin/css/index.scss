@@ -1,0 +1,50 @@
+.index{
+    background:url(../img/fundoOriginal.png);
+    background-size: cover;
+    padding: 10px;
+    .wrapper{
+        border: 1px solid #02212db0;
+        background-color:#043a5070;
+        color:#fff;
+        a{
+        color: #ccc;
+        }
+        .form form .field i.active::before{
+            color: #007e7e;
+            content: "\f070";
+          }
+        
+
+        .image{
+            input[type='file'] {
+                display: none
+              }
+              
+              label {
+                background-color: #02212db0;
+                border-radius: 5px;
+                color: #fff;
+                cursor: pointer;
+                // margin: 10px;
+                padding: 6px 20px
+              }
+        }
+        input{
+            border: 1px solid #02212db0;
+            background-color:#02212dab;   
+            color: #97f2f5;
+        }
+    }
+}.index::-webkit-scrollbar{
+     width: 8px;
+     background-color: #043a5070;
+ }
+  
+.index::-webkit-scrollbar-track {
+     background-color: #043a5070;
+ }
+  
+.index::-webkit-scrollbar-thumb {
+     background: #000218;
+     border-radius: 5rem;
+ }

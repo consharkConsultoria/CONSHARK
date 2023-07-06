@@ -1,0 +1,195 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  align-items: center;
+  background-image: url(fundoOriginal.png);
+  background-size: cover;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+body .container {
+  border: 1px solid rgba(2, 33, 45, 0.6901960784);
+  border-radius: 15px;
+  margin-left: 50px;
+  height: auto;
+  width: 50vw;
+  background-color: rgba(2, 33, 45, 0.4392156863);
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container .user {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+body .container .user .user2 {
+  background-color: #023e53;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .user img {
+  width: 50px;
+}
+body .container .title {
+  margin-top: 5px;
+  text-align: center;
+}
+body .container .title h1 {
+  font-weight: 100;
+  font-size: 32px;
+  color: #e9e5e5;
+}
+body .container .formulario {
+  width: 100%;
+  height: 70%;
+}
+body .container .formulario form {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  color: #e9e5e5;
+}
+body .container .formulario form .dadospessoais {
+  width: 65%;
+  padding-left: 25px;
+}
+body .container .formulario form .dadospessoais .box p {
+  font-size: 20px;
+  font-weight: 100;
+}
+body .container .formulario form .dadospessoais .box p input {
+  width: 75%;
+  height: 35px;
+  background-color: transparent;
+  border-bottom: 1px solid #023e53;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  color: #c2c2c2;
+  font-size: 18px;
+}
+body .container .formulario form .dadospessoais .box p input:focus {
+  outline: 0;
+  border-bottom: 1px solid rgba(80, 225, 230, 0.6980392157);
+}
+body .container .formulario form .cad {
+  width: 45%;
+  padding-left: 25px;
+}
+body .container .formulario form .cad .box p {
+  font-size: 20px;
+  font-weight: 100;
+}
+body .container .formulario form .cad .box p input {
+  width: 75%;
+  height: 35px;
+  background-color: transparent;
+  border-bottom: 1px solid #023e53;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  color: #c2c2c2;
+  font-size: 18px;
+}
+body .container .formulario form .cad .box p input:focus {
+  outline: 0;
+  border-bottom: 1px solid rgba(80, 225, 230, 0.6980392157);
+}
+body .container .btn {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .btn input {
+  height: 45px;
+  width: 125px;
+  background-color: transparent;
+  border: 1px solid #057097;
+  border-radius: 20px;
+  transition: 0.6s ease-in-out;
+  color: #fff;
+}
+body .container .btn input:hover {
+  border-radius: 0;
+  height: 45px;
+  width: 200px;
+}
+
+@media (max-width: 1500px) {
+  body .container {
+    height: 72vh;
+  }
+}
+@media (max-width: 1300px) {
+  body .container .formulario form .inp {
+    height: 32px;
+    margin: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  body .container {
+    height: 80vh;
+  }
+}
+@media (max-width: 1000px) {
+  body .container {
+    height: 84vh;
+    width: 64vh;
+  }
+}
+@media (max-width: 800px) {
+  body .container {
+    margin: 0;
+    height: 77vh;
+  }
+  body .container .user {
+    width: 60px;
+    height: 60px;
+  }
+  body .container .user img {
+    width: 37px;
+  }
+  body .container .user .user2 {
+    width: 80px;
+    height: 57px;
+  }
+  body .container .title h1 {
+    font-size: 20px;
+  }
+  body .container .formulario form .dadospessoais .box p {
+    font-size: 14px;
+    font-weight: 100;
+  }
+  body .container .formulario form .cad .box p {
+    font-size: 14px;
+    font-weight: 100;
+  }
+  body .container .formulario form .cad .box p input {
+    width: 75%;
+    height: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
